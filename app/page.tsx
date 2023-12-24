@@ -1,10 +1,13 @@
-import {Flex, Text, Button} from "@radix-ui/themes"
+// Third-party Modules
+import { Flex, Text, Button } from "@radix-ui/themes";
+
+// Components
+import ThemeChange from "@/components/button/theme-change";
 
 export default function app() {
   return (
     <Flex>
-      <Text>Hello from Radix with Lazp, HAHAHA</Text>
-      <Button>GOGO</Button> 
+      <ThemeChange />
     </Flex>
-  )
-}
+  );
+};
