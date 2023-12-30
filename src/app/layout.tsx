@@ -1,33 +1,31 @@
 // Next
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
-// Radix UI 
-import '@radix-ui/themes/styles.css';
-import { Theme, ThemePanel } from "@radix-ui/themes";
+// Radix UI
+import "@radix-ui/themes/styles.css";
+import { Theme } from "@radix-ui/themes";
 
 // Configuration Files
-import { themeConf } from "./theme.conf.ts";
+import { themeConf } from "./theme.conf";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Lazco Studio Ltd.',
-  description: 'NaNaNa',
-}
+  title: "Lazco Studio Ltd.",
+  description: "NaNaNa",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Theme {...themeConf}>
-          {children}
-        </Theme>
+        <Theme {...themeConf}>{children}</Theme>
       </body>
     </html>
-  )
+  );
 }
