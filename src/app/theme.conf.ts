@@ -1,6 +1,6 @@
-export const themeConf = {
-  asChild: false, // default
-  hasBackground: true, // default
+import { ThemeOptions } from "@radix-ui/themes"; // Theme options type
+
+export const themeConf: ThemeOptions = {
   appearance: "light",
   accentColor: "iris",
   grayColor: "auto", // default
