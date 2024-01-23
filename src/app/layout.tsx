@@ -9,6 +9,9 @@ import { Theme } from "@radix-ui/themes";
 // Configuration Files
 import { themeConf } from "./theme.conf";
 
+// Styles
+import "@/styles/globals.scss";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

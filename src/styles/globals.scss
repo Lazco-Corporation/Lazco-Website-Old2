@@ -1,1 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500&display=swap");
 
+@import "./normalize.scss";
+
+* {
+  outline: none;
+}
+
+body {
+  max-width: 100dvw;
+  max-height: 100dvh;
+  overflow: hidden;
+  color: black;
+  font-family: "Noto Sans TC", sans-serif;
+  animation: 1s ease-out 0s 1 fadeIn;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
