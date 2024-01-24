@@ -1,0 +1,23 @@
+.headerBar {
+  backdrop-filter: blur(10px);
+  background-color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+
+  padding: 1rem 2rem;
+}
+
+.logoName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.linkList {
+  &>ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+  }
+}
