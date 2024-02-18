@@ -1,13 +1,10 @@
-// Radix UI component
-import { Text } from "@radix-ui/themes";
-
 // Custom Component
-import HeaderBar from "@/components/home/HeaderBar";
+import Header from "@/components/home/Header";
 
 export default function Home() {
   return (
     <>
-      <HeaderBar />
+      <Header />
     </>
   );
 }
