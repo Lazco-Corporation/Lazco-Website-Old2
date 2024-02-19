@@ -1,6 +1,6 @@
 // Next
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Noto_Sans_TC } from "next/font/google";
 
 // Radix UI
 import "@radix-ui/themes/styles.css";
@@ -12,8 +12,10 @@ import { themeConf } from "./theme.conf";
 // Styles
 import "@/styles/globals.scss";
 
-const inter = Inter({ subsets: ["latin"] });
-
+const notoSansTC = Noto_Sans_TC({
+  weight: ["200", "300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+});
 export const metadata: Metadata = {
   title: "Lazco Studio Ltd.",
   description: "NaNaNa",
@@ -26,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={notoSansTC.className}>
         <Theme {...themeConf}>{children}</Theme>
       </body>
     </html>
