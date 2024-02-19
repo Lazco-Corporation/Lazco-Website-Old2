@@ -33,9 +33,15 @@
 
   a {
     color: #3a3a3a;
+    background: linear-gradient(to right, #3a3a3a 50%, #1d3891 50%);
+    background-size: 200% 100%;
+    transition: background-position .5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 
     &:hover {
-      color: #1d3891;
+      background-position: -100% 0;
     }
   }
 }
