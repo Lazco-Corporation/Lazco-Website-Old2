@@ -1,0 +1,15 @@
+@import "@/styles/variables.scss";
+
+.BannerText {
+  position: inherit;
+
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  place-items: center;
+
+  .Heading {
+    color: $color-white;
+  }
+}
