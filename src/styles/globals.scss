@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500&display=swap");
 
 @import "./normalize.scss";
+@import "./variables.scss";
 
 * {
   outline: none;
@@ -22,5 +23,24 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: $scrollbar-track-color;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: $scrollbar-thumb-color;
+
+  &:hover {
+    background: $scrollbar-thumb-hover-color;
   }
 }
