@@ -18,7 +18,6 @@ export default function HeaderBar() {
             height={48}
             priority
           ></Image>
-          <Text>Lazco Studio</Text>
         </Box>
         <Box className={style.linkList}>
           <ul>

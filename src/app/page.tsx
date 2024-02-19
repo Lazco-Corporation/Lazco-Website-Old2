@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <div style={{ height: "100vh" }}></div>
     </>
   );
 }
