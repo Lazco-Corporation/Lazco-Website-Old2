@@ -15,8 +15,8 @@ export default function HeaderBar() {
             <Image
               src={"/images/logo_transparent.png"}
               alt={"logo"}
-              width={48}
-              height={48}
+              width={125}
+              height={37.5}
               priority
             ></Image>
           </Link>

@@ -5,8 +5,13 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  padding: .5rem 2rem;
   width: 100vw;
+  height: $header-height;
+
+  padding: 0 1rem;
+
+  display: flex;
+  align-items: center;
 
   background-color: rgba($color-white, 0.39);
   backdrop-filter: blur(10px);
