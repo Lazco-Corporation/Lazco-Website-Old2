@@ -5,9 +5,7 @@ import HeaderBar from "@/components/home/HeaderBar";
 export default function Home() {
   return (
     <>
-      <HeaderBar />
       <Header />
-      <div style={{ height: "100vh" }}></div>
     </>
   );
 }

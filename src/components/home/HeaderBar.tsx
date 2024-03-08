@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Text, Box, Flex, Link } from "@radix-ui/themes";
+import { Box, Flex, Link } from "@radix-ui/themes";
 
 import { linkData } from "@/config/homeLinks";
 

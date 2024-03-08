@@ -5,19 +5,19 @@ export type link = {
 
 export const linkData: Array<link> = [
   {
-    name: "About",
+    name: "關於我們",
     href: "/about",
   },
   {
-    name: "Service",
+    name: "服務項目",
     href: "/service",
   },
   {
-    name: "Gallery",
+    name: "作品集",
     href: "/gallery",
   },
   {
-    name: "Contact",
+    name: "聯絡我們",
     href: "/contact",
   },
 ];

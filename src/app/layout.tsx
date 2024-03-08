@@ -9,8 +9,10 @@ import { Theme } from "@radix-ui/themes";
 // Configuration Files
 import { themeConf } from "./theme.conf";
 
-// Styles
 import "@/styles/globals.scss";
+import HeaderBar from "@/components/home/HeaderBar";
+
+// Components
 
 const notoSansTC = Noto_Sans_TC({
   weight: ["200", "300", "400", "500", "600", "700"],
@@ -29,7 +31,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={notoSansTC.className}>
-        <Theme {...themeConf}>{children}</Theme>
+        <Theme {...themeConf}>
+          <HeaderBar></HeaderBar>
+          {children}
+        </Theme>
       </body>
     </html>
   );
