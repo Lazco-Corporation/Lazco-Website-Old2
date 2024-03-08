@@ -11,13 +11,15 @@ export default function HeaderBar() {
     <Box className={style.headerBar} width={"100%"}>
       <Flex align={"center"} justify={"between"} width={"100%"}>
         <Box className={style.logoName}>
-          <Image
-            src={"/images/logo_transparent.png"}
-            alt={"logo"}
-            width={48}
-            height={48}
-            priority
-          ></Image>
+          <Link href="/">
+            <Image
+              src={"/images/logo_transparent.png"}
+              alt={"logo"}
+              width={48}
+              height={48}
+              priority
+            ></Image>
+          </Link>
         </Box>
         <Box className={style.linkList}>
           <ul>
