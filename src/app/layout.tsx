@@ -10,7 +10,7 @@ import { Theme } from "@radix-ui/themes";
 import { themeConf } from "./theme.conf";
 
 import "@/styles/globals.scss";
-import HeaderBar from "@/components/home/HeaderBar";
+import HeaderBar from "@/components/global/HeaderBar";
 
 // Components
 
