@@ -1,7 +1,10 @@
+// Components
+import Slogan from "@/components/service/Slogan";
+
 export default function ServicePage() {
   return (
     <div>
-      <p>I&apos;m a service</p>
+      <Slogan />
     </div>
   );
 }
