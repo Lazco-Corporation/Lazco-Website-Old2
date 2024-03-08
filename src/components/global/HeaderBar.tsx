@@ -23,7 +23,7 @@ export default function HeaderBar() {
           <ul>
             {linkData.map((link) => (
               <li key={link.name}>
-                <Link href={link.href} target="_blank" rel="noreferrer">
+                <Link href={link.href} rel="noreferrer">
                   {link.name}
                 </Link>
               </li>
