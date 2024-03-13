@@ -1,4 +1,5 @@
 import { Text } from "@radix-ui/themes";
+import ProductCard from "@/components/service/ProductSeries/ProductCard";
 
 // styles
 import styles from "@/styles/service/ProductSeries/ProductSeries.module.scss";
@@ -20,6 +21,9 @@ export default function ProductSeries({ title, description, items }: Props) {
           {description}
         </Text>
       </>
+      <div className={styles.cards}>
+        <ProductCard title="Bold typography">123</ProductCard>
+      </div>
     </div>
   );
 }
