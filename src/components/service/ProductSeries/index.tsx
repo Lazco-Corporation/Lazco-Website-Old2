@@ -1,7 +1,25 @@
-export default function ProductSeries() {
+import { Text } from "@radix-ui/themes";
+
+// styles
+import styles from "@/styles/service/ProductSeries/ProductSeries.module.scss";
+
+interface Props {
+  title: string;
+  description: string;
+  items: any;
+}
+
+export default function ProductSeries({ title, description, items }: Props) {
   return (
-    <>
-      <p>This is the Product Series</p>
-    </>
+    <div className={styles.ProductSeries}>
+      <>
+        <Text size={"8"} className={styles.Heading}>
+          {title}
+        </Text>
+        <Text size={"4"} color="gray">
+          {description}
+        </Text>
+      </>
+    </div>
   );
 }
