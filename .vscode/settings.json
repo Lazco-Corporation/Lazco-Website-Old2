@@ -2,5 +2,8 @@
   "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "cSpell.words": [
     "lazco"
-  ]
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  }
 }
